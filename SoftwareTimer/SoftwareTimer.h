@@ -1,7 +1,7 @@
 /**
  * @file SoftwareTimer.h
  * @author Javier Presmanes Cardama (presmanes3@gmail.com)
- * @brief The aim of this class is to avoid creating timing logic within your code, just create a Timer!
+ * @brief The aim of this class is to avoid creating timing logic within your code, just create a SoftwareTimer!
  * @version 0.1
  * @date 2019-12-29
  * 
@@ -14,31 +14,32 @@
 #include "inttypes.h"
 
 /**
- * @brief SoftwareTimer creates a timer which will be checked constantly by TimeManager or independently
- * 
+ * @brief SoqweftwareTimer creates a timer which will be checked constantly by TimeManager or independently
+ *
  */
-class SoftwareTimer{
-    public:
-    
+class SoftwareTimer {
+public:
+
     /**
-     * @brief Construct a new Software Timer object
+     * @brief Construct a new Software SoftwareTimer object
      * 
-     * @param timerPeriod time which must pass to activate Timer Flag
-     * @param sleepTime time which the Timer Flag will be deactivated
-     * @param initialState initial state for Timer Flag (default true)
+     * @param timerPeriod time which must pass to activate SoftwareTimer Flag
+     * @param sleepTime time which the SoftwareTimer Flag will be deactivated
+     * @param initialState initial state for SoftwareTimer Flag (default true)
      */
+
     SoftwareTimer(uint32_t timerPeriod, uint32_t sleepTime, bool initialState);
 
     /**
-     * @brief Construct a new Software Timer object
+     * @brief Construct a new Software SoftwareTimer object
      * 
-     * @param commonPeriod time which must pass to activate and deactivate Timer Flag are equal
-     * @param initialState initial state for Timer Flag
+     * @param commonPeriod time which must pass to activate and deactivate SoftwareTimer Flag are equal
+     * @param initialState initial state for SoftwareTimer Flag
      */
     SoftwareTimer(uint32_t commonPeriod, bool initialState);
 
     /**
-    * @brief Get the period for activating Timer Flag
+    * @brief Get the period for activating SoftwareTimer Flag
     * 
     * @return uint32_t timePeriod
     */
@@ -67,28 +68,28 @@ class SoftwareTimer{
     void setSleepTime(uint32_t newSleepTime);
 
     /**
-     * @brief Activate Timer Flag
+     * @brief Activate SoftwareTimer Flag
      * 
      */
     void activateFlag();
 
     /**
-     * @brief Deactivate Timer Flag
+     * @brief Deactivate SoftwareTimer Flag
      * 
      */
     void deactivateFlag();
 
     /**
-     * @brief Get the Timer Flag
+     * @brief Get the SoftwareTimer Flag
      * 
      * @return true if timer period has past
      * @return false if timer is sleeping
      */
     bool getFlag();
 
-    private:
-        uint32_t timePeriod, sleepTime;
-        bool flag;
+private:
+    uint32_t timePeriod, sleepTime;
+    bool flag;
 
 };
 
