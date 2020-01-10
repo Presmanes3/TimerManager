@@ -115,6 +115,7 @@ public:
     void deactivateFlag();
 
     /**** START / STOP ****/
+
     /**
      * @brief when starting the timer you must specify a time reference
      *
