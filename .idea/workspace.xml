@@ -89,7 +89,7 @@
       <recent name="$PROJECT_DIR$/UnitTest/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.main">
+  <component name="RunManager" selected="Google Test.TimerTestClass.ConstructorOne">
     <configuration name="All in TimerTest.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/UnitTest/TimerTest.cpp)" TEST_MODE="PATTERN">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -102,13 +102,13 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerManagerFunctionTest.checkTimerTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerFunctionTest" TEST_METHOD="checkTimerTest" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerTestClass" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerTestClass" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerTestClass" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerTestClass" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerTestClass.ConstructorOne" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerTestClass" TEST_METHOD="ConstructorOne" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -178,17 +178,17 @@
       <item itemvalue="Google Test.Unit Tests" />
       <item itemvalue="Google Test.All in TimerTest.cpp" />
       <item itemvalue="Google Test.TimerManagerFunctionTest.checkTimerMilTest" />
-      <item itemvalue="Google Test.TimerManagerFunctionTest.checkTimerTest" />
       <item itemvalue="Google Test.TimerTestClass" />
       <item itemvalue="Google Test.TimerTestClass.stopTest" />
+      <item itemvalue="Google Test.TimerTestClass.ConstructorOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.TimerTestClass.ConstructorOne" />
         <item itemvalue="Google Test.TimerTestClass.stopTest" />
         <item itemvalue="Google Test.All in TimerTest.cpp" />
         <item itemvalue="Google Test.TimerTestClass" />
         <item itemvalue="Google Test.TimerManagerFunctionTest.checkTimerMilTest" />
-        <item itemvalue="Google Test.TimerManagerFunctionTest.checkTimerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -238,22 +238,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1177" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578308974003" />
-    <state width="1874" height="149" key="GridCell.Tab.0.bottom" timestamp="1578695689722">
+    <state width="1874" height="149" key="GridCell.Tab.0.bottom" timestamp="1578695885320">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578695689722" />
-    <state width="1874" height="149" key="GridCell.Tab.0.center" timestamp="1578695689721">
+    <state width="1874" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885320" />
+    <state width="1874" height="149" key="GridCell.Tab.0.center" timestamp="1578695885320">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578695689721" />
-    <state width="1874" height="149" key="GridCell.Tab.0.left" timestamp="1578695689720">
+    <state width="1874" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885320" />
+    <state width="1874" height="149" key="GridCell.Tab.0.left" timestamp="1578695885319">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578695689720" />
-    <state width="1874" height="149" key="GridCell.Tab.0.right" timestamp="1578695689721">
+    <state width="1874" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885319" />
+    <state width="1874" height="149" key="GridCell.Tab.0.right" timestamp="1578695885320">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578695689721" />
+    <state width="1874" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885320" />
     <state x="257" y="130" width="1007" height="732" key="SettingsEditor" timestamp="1578661127724">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
