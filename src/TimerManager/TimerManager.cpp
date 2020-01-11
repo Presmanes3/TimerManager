@@ -7,29 +7,35 @@
 
 /**** CONSTUCTORS ****/
 
-TimerManager::TimerManager(char *timerManagerIdentifier, uint8_t maxTimers) {
+TimerManager::TimerManager(char *timerManagerIdentifier,Timer** pool ,uint8_t maxTimers) {
     snprintf(this->identifier, TIMER_MANAGER_IDENTIFIER_MAX_LENGTH, "%s", timerManagerIdentifier);
 
     this->maxTimers = maxTimers;
-    this->pool = nullptr; // TODO check if this can be null
+
+    this->pool = pool;
+
     this->numTimers = 0;
     this->status = TIMER_MANAGER_ACTIVATED;
 }
 
-TimerManager::TimerManager(char *timerManagerIdentifier) {
+TimerManager::TimerManager(char *timerManagerIdentifier, Timer** pool) {
     snprintf(this->identifier, TIMER_MANAGER_IDENTIFIER_MAX_LENGTH, "%s", timerManagerIdentifier);
 
     this->maxTimers = TIMER_MANAGER_DEFAULT_MAX_TIMERS;
-    this->pool = nullptr; // TODO check if this can be null
+
+    this->pool = pool;
+
     this->numTimers = 0;
     this->status = TIMER_MANAGER_ACTIVATED;
 }
 
-TimerManager::TimerManager() {
+TimerManager::TimerManager(Timer** pool) {
     snprintf(this->identifier, TIMER_MANAGER_IDENTIFIER_MAX_LENGTH, "%s", TIMER_MANAGER_DEFAULT_IDENTIFIER);
 
     this->maxTimers = TIMER_MANAGER_DEFAULT_MAX_TIMERS;
-    this->pool = nullptr; // TODO check if this can be null
+
+    this->pool = pool;
+
     this->numTimers = 0;
     this->status = TIMER_MANAGER_ACTIVATED;
 }
@@ -38,6 +44,20 @@ TimerManager::TimerManager() {
 
 void TimerManager::setTimer(Timer *t, uint32_t position) {
     this->pool[position] = t;
+}
+
+void TimerManager::addTimer(Timer *t) {
+    if (t != nullptr) {
+        if (this->numTimers < this->maxTimers) {
+            this->pool[numTimers] = t;
+            this->numTimers++;
+        }else{
+            // TODO Error out of range
+        }
+    } else {
+        errno = EINVAL;
+        perror("Error adding Timer");
+    }
 }
 
 void TimerManager::setIdentifier(char *newIdentifier) {
@@ -58,15 +78,15 @@ void TimerManager::setMaxTimers(uint8_t newValue) {
 
 /**** GETTERS ****/
 
-Timer** TimerManager::getTimerPool() {
+Timer **TimerManager::getTimerPool() {
     return this->pool;
 }
 
-Timer* TimerManager::getTimer(uint32_t position) {
+Timer *TimerManager::getTimer(uint32_t position) {
     return this->pool[position];
 }
 
-char* TimerManager::getIdentifier() {
+char *TimerManager::getIdentifier() {
     return this->identifier;
 }
 
@@ -110,4 +130,10 @@ void TimerManager::copyTimer(Timer *t1, Timer *t2) {
     t2->setTime(t1->getTime());
     t2->setIdentifier(timerType(t1->getIdentifier()));
     t2->setReference(t1->getReference());
+}
+
+void TimerManager::clearPool(Timer **pool, uint8_t size) {
+    for(uint8_t x = 0; x < size; x++){
+        pool[x] = nullptr;
+    }
 }

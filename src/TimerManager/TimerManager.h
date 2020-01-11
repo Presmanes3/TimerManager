@@ -11,6 +11,7 @@
 #include <cmath>
 #include <cstring>
 #include "TimerManagerConstants.h"
+#include <errno.h>
 
 class Timer;
 
@@ -33,19 +34,19 @@ public:
      * @param timerManagerIdentifier, name
      * @param maxTimers, total number of timer that can manage
      */
-    TimerManager(char *timerManagerIdentifier, uint8_t maxTimers = 0);
+    TimerManager(char *timerManagerIdentifier, Timer** pool ,uint8_t maxTimers);
 
     /**
      * @brief This constructor will create a timer manager without timers inside
      *
      * @param timerManagerIdentifier
      */
-    TimerManager(char *timerManagerIdentifier);
+    TimerManager(char *timerManagerIdentifier, Timer** pool);
 
     /**
      * @brief This constructor will create an empty timer manager
      */
-    TimerManager();
+    TimerManager(Timer** pool);
 
 
     /**** SETTERS ****/
@@ -57,6 +58,8 @@ public:
      * @param position
      */
     void setTimer(Timer *t, uint32_t position);
+
+    void addTimer(Timer* t);
 
     /**
      * @brief This function changes the identifier of the object
@@ -157,10 +160,16 @@ public:
      */
     void copyTimer(Timer *t1, Timer *t2);
 
+    void clearPool(Timer** pool, uint8_t size);
+
 private:
-    Timer **pool;
+
     uint8_t maxTimers;
     uint8_t numTimers;
+
+    Timer **pool;
+
+
     char identifier[TIMER_MANAGER_IDENTIFIER_MAX_LENGTH];
     bool status;
 };
