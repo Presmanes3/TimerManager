@@ -7,19 +7,19 @@
 
 /**** CONSTUCTORS ****/
 
-TimerManager::TimerManager(char *timerManagerIdentifier,Timer** pool ,uint8_t maxTimers) {
-    snprintf(this->identifier, TIMER_MANAGER_IDENTIFIER_MAX_LENGTH, "%s", timerManagerIdentifier);
+TimerManager::TimerManager(char *tmID,Timer** pool ,uint8_t maxTimers) {
+    snprintf(this->identifier, TIMER_MANAGER_IDENTIFIER_MAX_LENGTH, "%s", tmID);
 
     this->maxTimers = maxTimers;
 
-    this->pool = pool;
+    this->pool = pool; // TODO Check if maxTimers is bigger than pool size
 
     this->numTimers = 0;
     this->status = TIMER_MANAGER_ACTIVATED;
 }
 
-TimerManager::TimerManager(char *timerManagerIdentifier, Timer** pool) {
-    snprintf(this->identifier, TIMER_MANAGER_IDENTIFIER_MAX_LENGTH, "%s", timerManagerIdentifier);
+TimerManager::TimerManager(char *tmID, Timer** pool) {
+    snprintf(this->identifier, TIMER_MANAGER_IDENTIFIER_MAX_LENGTH, "%s", tmID);
 
     this->maxTimers = TIMER_MANAGER_DEFAULT_MAX_TIMERS;
 
@@ -72,7 +72,7 @@ void TimerManager::stop() {
     this->status = false;
 }
 
-void TimerManager::setMaxTimers(uint8_t newValue) {
+void TimerManager::setMaxTimers(uint8_t newValue) { // TODO limit max number based on pool size
     this->maxTimers = newValue;
 }
 
