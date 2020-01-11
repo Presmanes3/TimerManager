@@ -15,6 +15,8 @@
 #include "TimerManagerConstants.h"
 #include <errno.h>
 
+// TODO Examples
+
 class Timer;
 
 /**
@@ -53,10 +55,10 @@ public:
     /**
      * @brief This constructor will create a timer manager without timers inside
      *
-     * @attention TimerManagerIdentifier must be shorter than 25 chars
-     * @attention Pool should not be null. It is a Timer array
-     * @attention maxTimers must not be bigger than pool size
-     * @attention check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
+     * @attention - TimerManagerIdentifier must be shorter than 25 chars
+     * @attention - Pool should not be null. It is a Timer array
+     * @attention - maxTimers must not be bigger than pool size
+     * @attention - check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
      *
      * @param tmID  is the timer manager name
      * @param pool contains timers to be managed
@@ -66,9 +68,9 @@ public:
     /**
      * @brief This constructor will create an empty timer manager
      *
-     * @attention Pool should not be null. It is a Timer array
-     * @attention maxTimers must not be bigger than pool size
-     * @attention check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
+     * @attention - Pool should not be null. It is a Timer array
+     * @attention - maxTimers must not be bigger than pool size
+     * @attention - check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
      *
      * @param pool contains timers to be managed
      */
@@ -88,8 +90,8 @@ public:
     /**
      * @brief This function changes the timer pool to manage
      *
-     * @attention Pool should not be null. It is a Timer array
-     * @attention maxTimers must not be bigger than pool size
+     * @attention - Pool should not be null. It is a Timer array
+     * @attention - maxTimers must not be bigger than pool size
      *
      * @param pool pool of timers to handle
      * @param maxTimers maximum number of timers that the class can handle
@@ -108,7 +110,7 @@ public:
     /**
      * @brief This functions changes the maximum number of timers managed by the timer manager
      *
-     * @attention maxTimers must not be bigger than pool size
+     * @attention - maxTimers must not be bigger than pool size
      *
      * @param newValue
      */
@@ -148,7 +150,7 @@ public:
     Timer *getTimer(uint32_t position);
 
     /**
-     * @brief Getter for the identifiers variable
+     * @brief Getter for the identifier variable
      *
      * @return identifier
      */

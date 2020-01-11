@@ -11,6 +11,8 @@
 #include <cinttypes>
 #include "TimerManagerConstants.h"
 
+// TODO Examples
+
 /**
  * @brief Identifier can be used by the user in order to have a visual method to know the frequency
  * of the timer. It can be milliseconds, Seconds, Minutes, Hours etc...
