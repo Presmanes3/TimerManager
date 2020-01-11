@@ -52,6 +52,8 @@ public:
         delete timer2;
         delete timer3;
         delete timer4;
+
+        delete timer5;
     }
 
 };
