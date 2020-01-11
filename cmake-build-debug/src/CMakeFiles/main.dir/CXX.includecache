@@ -23,6 +23,8 @@ cstring
 -
 TimerManagerConstants.h
 ../src/TimerManager/TimerManagerConstants.h
+errno.h
+-
 
 ../src/TimerManagerConstants.h
 

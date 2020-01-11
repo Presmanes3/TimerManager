@@ -31,4 +31,6 @@ cstring
 -
 TimerManagerConstants.h
 /home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager/TimerManagerConstants.h
+errno.h
+-
 

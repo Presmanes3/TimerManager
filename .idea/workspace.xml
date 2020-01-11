@@ -2,15 +2,15 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TimerManagerProject" targetName="gmock" />
-      <config projectName="TimerManagerProject" targetName="Google_Tests_run" />
       <config projectName="TimerManagerProject" targetName="TimerManager_lib" />
-      <config projectName="TimerManagerProject" targetName="gmock_main" />
-      <config projectName="TimerManagerProject" targetName="gtest_main" />
       <config projectName="TimerManagerProject" targetName="Timer_lib" />
-      <config projectName="TimerManagerProject" targetName="gtest" />
-      <config projectName="TimerManagerProject" targetName="main" />
+      <config projectName="TimerManagerProject" targetName="gtest_main" />
       <config projectName="TimerManagerProject" targetName="Constants_lib" />
+      <config projectName="TimerManagerProject" targetName="Google_Tests_run" />
+      <config projectName="TimerManagerProject" targetName="gtest" />
+      <config projectName="TimerManagerProject" targetName="gmock_main" />
+      <config projectName="TimerManagerProject" targetName="gmock" />
+      <config projectName="TimerManagerProject" targetName="main" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90ac87e4-7873-4934-98a3-c4d71feda084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/Google_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/Google_Tests_run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTest/TimerManagerTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTest/TimerManagerTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +56,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TimerManagerProject" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +91,7 @@
     <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.advertisement.text.overridden" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
@@ -89,32 +102,32 @@
       <recent name="$PROJECT_DIR$/UnitTest/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.TimerTestClass.ConstructorOne">
-    <configuration name="All in TimerTest.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/UnitTest/TimerTest.cpp)" TEST_MODE="PATTERN">
+  <component name="RunManager" selected="Google Test.TimerManagerTest">
+    <configuration name="TimerManagerTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerManagerFunctionTest.checkTimerMilTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerFunctionTest" TEST_METHOD="checkTimerMilTest" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.checkTimerTest4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="checkTimerTest4" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerTestClass" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerTestClass" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.checkTimerTest5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="checkTimerTest5" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerTestClass.ConstructorOne" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerTestClass" TEST_METHOD="ConstructorOne" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.copyTimerTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="copyTimerTest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerTestClass.stopTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerTestClass" TEST_METHOD="stopTest" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.getDifferenceTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="getDifferenceTest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -176,19 +189,19 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="Google Test.Unit Tests" />
-      <item itemvalue="Google Test.All in TimerTest.cpp" />
-      <item itemvalue="Google Test.TimerManagerFunctionTest.checkTimerMilTest" />
-      <item itemvalue="Google Test.TimerTestClass" />
-      <item itemvalue="Google Test.TimerTestClass.stopTest" />
-      <item itemvalue="Google Test.TimerTestClass.ConstructorOne" />
+      <item itemvalue="Google Test.TimerManagerTest" />
+      <item itemvalue="Google Test.TimerManagerTest.checkTimerTest4" />
+      <item itemvalue="Google Test.TimerManagerTest.checkTimerTest5" />
+      <item itemvalue="Google Test.TimerManagerTest.getDifferenceTest" />
+      <item itemvalue="Google Test.TimerManagerTest.copyTimerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.TimerTestClass.ConstructorOne" />
-        <item itemvalue="Google Test.TimerTestClass.stopTest" />
-        <item itemvalue="Google Test.All in TimerTest.cpp" />
-        <item itemvalue="Google Test.TimerTestClass" />
-        <item itemvalue="Google Test.TimerManagerFunctionTest.checkTimerMilTest" />
+        <item itemvalue="Google Test.TimerManagerTest" />
+        <item itemvalue="Google Test.TimerManagerTest.copyTimerTest" />
+        <item itemvalue="Google Test.TimerManagerTest.getDifferenceTest" />
+        <item itemvalue="Google Test.TimerManagerTest.checkTimerTest5" />
+        <item itemvalue="Google Test.TimerManagerTest.checkTimerTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +234,8 @@
       <workItem from="1578520055553" duration="2168000" />
       <workItem from="1578656489150" duration="15203000" />
       <workItem from="1578678103902" duration="14000" />
-      <workItem from="1578680070540" duration="2872000" />
+      <workItem from="1578680070540" duration="3088000" />
+      <workItem from="1578746466371" duration="18727000" />
     </task>
     <servers />
   </component>
@@ -238,22 +252,70 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1177" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578308974003" />
-    <state width="1874" height="149" key="GridCell.Tab.0.bottom" timestamp="1578695885320">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2791" y="295" key="#xdebugger.XInspectDialog" timestamp="1578756848833">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885320" />
-    <state width="1874" height="149" key="GridCell.Tab.0.center" timestamp="1578695885320">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2791" y="295" key="#xdebugger.XInspectDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578756848833" />
+    <state x="2642" y="242" key="#xdebugger.evaluate" timestamp="1578759234331">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885320" />
-    <state width="1874" height="149" key="GridCell.Tab.0.left" timestamp="1578695885319">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2642" y="242" key="#xdebugger.evaluate/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759234331" />
+    <state width="457" height="466" key="DebuggerActiveHint" timestamp="1578751142247">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885319" />
-    <state width="1874" height="149" key="GridCell.Tab.0.right" timestamp="1578695885320">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="457" height="466" key="DebuggerActiveHint/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578751142247" />
+    <state width="1874" height="484" key="GridCell.Tab.-1.bottom" timestamp="1578757319341">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578695885320" />
+    <state width="1874" height="484" key="GridCell.Tab.-1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578757319341" />
+    <state width="1874" height="484" key="GridCell.Tab.-1.center" timestamp="1578757319341">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="484" key="GridCell.Tab.-1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578757319341" />
+    <state width="1874" height="484" key="GridCell.Tab.-1.left" timestamp="1578757319341">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="484" key="GridCell.Tab.-1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578757319341" />
+    <state width="1874" height="484" key="GridCell.Tab.-1.right" timestamp="1578757319341">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="484" key="GridCell.Tab.-1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578757319341" />
+    <state width="1874" height="237" key="GridCell.Tab.0.bottom" timestamp="1578764890988">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926770" />
+    <state width="1874" height="237" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
+    <state width="1874" height="237" key="GridCell.Tab.0.center" timestamp="1578764890988">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
+    <state width="1874" height="237" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
+    <state width="1874" height="237" key="GridCell.Tab.0.left" timestamp="1578764890988">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
+    <state width="1874" height="237" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
+    <state width="1874" height="237" key="GridCell.Tab.0.right" timestamp="1578764890988">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
+    <state width="1874" height="237" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
+    <state width="1874" height="345" key="GridCell.Tab.1.bottom" timestamp="1578759521134">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
+    <state width="1874" height="345" key="GridCell.Tab.1.center" timestamp="1578759521134">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
+    <state width="1874" height="345" key="GridCell.Tab.1.left" timestamp="1578759521134">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
+    <state width="1874" height="345" key="GridCell.Tab.1.right" timestamp="1578759521134">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
     <state x="257" y="130" width="1007" height="732" key="SettingsEditor" timestamp="1578661127724">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -270,6 +332,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="200" key="scopes/0.0.1920.1080@0.0.1920.1080" timestamp="1578660569874" />
+    <state x="2543" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1578761563077">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="238" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578761563077" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -279,7 +345,25 @@
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="pool" />
+      </configuration>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="p" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

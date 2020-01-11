@@ -12,6 +12,20 @@ cinttypes
 TimerManagerConstants.h
 ../src/Timer/TimerManagerConstants.h
 
+../src/TimerManager/TimerManager.h
+cstdint
+-
+cstdio
+-
+cmath
+-
+cstring
+-
+TimerManagerConstants.h
+../src/TimerManager/TimerManagerConstants.h
+errno.h
+-
+
 ../src/TimerManagerConstants.h
 
 ../src/UnitTest/lib/googletest/include/gtest/gtest-death-test.h
@@ -319,10 +333,10 @@ acxx_demangle.h
 -
 
 /home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/TimerManagerTest.cpp
-
-/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/TimerTest.cpp
 gtest/gtest.h
 /home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/gtest/gtest.h
+TimerManager.h
+/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/TimerManager.h
 Timer.h
 /home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/Timer.h
 
