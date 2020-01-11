@@ -21,14 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="90ac87e4-7873-4934-98a3-c4d71feda084" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/Google_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/Google_Tests_run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTest/TimerManagerTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTest/TimerManagerTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Timer/Timer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timer/Timer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimerManager/TimerManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimerManager/TimerManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +229,7 @@
       <workItem from="1578656489150" duration="15203000" />
       <workItem from="1578678103902" duration="14000" />
       <workItem from="1578680070540" duration="3088000" />
-      <workItem from="1578746466371" duration="18727000" />
+      <workItem from="1578746466371" duration="22790000" />
     </task>
     <servers />
   </component>
@@ -280,26 +274,26 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="484" key="GridCell.Tab.-1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578757319341" />
-    <state width="1874" height="237" key="GridCell.Tab.0.bottom" timestamp="1578764890988">
+    <state width="1874" height="237" key="GridCell.Tab.0.bottom" timestamp="1578765835717">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926770" />
-    <state width="1874" height="237" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
-    <state width="1874" height="237" key="GridCell.Tab.0.center" timestamp="1578764890988">
+    <state width="1874" height="237" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
+    <state width="1874" height="237" key="GridCell.Tab.0.center" timestamp="1578765835717">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
-    <state width="1874" height="237" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
-    <state width="1874" height="237" key="GridCell.Tab.0.left" timestamp="1578764890988">
+    <state width="1874" height="237" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
+    <state width="1874" height="237" key="GridCell.Tab.0.left" timestamp="1578765835717">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
-    <state width="1874" height="237" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
-    <state width="1874" height="237" key="GridCell.Tab.0.right" timestamp="1578764890988">
+    <state width="1874" height="237" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
+    <state width="1874" height="237" key="GridCell.Tab.0.right" timestamp="1578765835717">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
-    <state width="1874" height="237" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578764890988" />
+    <state width="1874" height="237" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
     <state width="1874" height="345" key="GridCell.Tab.1.bottom" timestamp="1578759521134">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -347,13 +341,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/main.cpp</url>
-          <line>25</line>
+          <line>6</line>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main.cpp</url>
-          <line>20</line>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

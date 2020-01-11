@@ -1,6 +1,8 @@
 /**
- * @brief The aim of this function is to manage all the Timers created inside a program. It is independent
- * from the source of the time.
+ * @name Timer Manager Library
+ * @author Javier Presmanes Cardama (https://github.com/Presmanes3)
+ * @version 1.0
+ * @date 11/01/2020
  *
  */
 #ifndef TIMERMANAGERPROJECT_TIMERMANAGER_H
@@ -18,6 +20,15 @@ class Timer;
 /**
  * @brief The aim of this class is to manage different Timer created previously
  *
+ * This class can not be used without defining Timers Previously.
+ *
+ * @attention - You can use this class for manager one or more timers
+ * @attention - If you want to manage more than one Timer at a time you must specify a Timer pool
+ * @attention - A Timer pool is a Timer array
+ *
+ * @example Timer* pool[25]; // Notice that 25 is the array size
+ * @example TimerManager manager = TimerManager("TimerManager_Example", pool, 25)
+ *
  */
 class TimerManager {
 
@@ -29,9 +40,9 @@ public:
      * @brief This constructor will create a timer manager with a given number of timers inside (timerPool)
      * it also receives a name.
      *
-     * @attention TimerManagerIdentifier must be shorter than 25 chars
-     * @attention Pool should not be null
-     * @attention maxTimers must not be bigger than pool size
+     * @attention - TimerManagerIdentifier must be shorter than 25 chars
+     * @attention - Pool should not be null. It is a Timer array
+     * @attention - maxTimers must not be bigger than pool size
      *
      * @param tmID  is the timer manager name
      * @param pool contains timers to be managed
@@ -43,7 +54,7 @@ public:
      * @brief This constructor will create a timer manager without timers inside
      *
      * @attention TimerManagerIdentifier must be shorter than 25 chars
-     * @attention Pool should not be null
+     * @attention Pool should not be null. It is a Timer array
      * @attention maxTimers must not be bigger than pool size
      * @attention check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
      *
@@ -55,7 +66,7 @@ public:
     /**
      * @brief This constructor will create an empty timer manager
      *
-     * @attention Pool should not be null
+     * @attention Pool should not be null. It is a Timer array
      * @attention maxTimers must not be bigger than pool size
      * @attention check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
      *
@@ -77,7 +88,7 @@ public:
     /**
      * @brief This function changes the timer pool to manage
      *
-     * @attention Pool should not be null
+     * @attention Pool should not be null. It is a Timer array
      * @attention maxTimers must not be bigger than pool size
      *
      * @param pool pool of timers to handle
@@ -121,38 +132,39 @@ public:
     //**** GETTERS ****/
 
     /**
-     * @brief This function returns a timer pool
+     * @brief This function returns a timer pool. It is a Timer array
      *
-     * @return timer pool
+     * @return pointer to the first element of the array
      */
     Timer **getTimerPool();
 
     /**
-     * @brief This function returns a pointer to a Timer
+     * @brief Getter for a Timer in a given position
      *
      * @param position of the Timer inside the pool
-     * @return
+     *
+     * @return pointer to the Timer
      */
     Timer *getTimer(uint32_t position);
 
     /**
-     * @brief This function returns the timer manager identifier
+     * @brief Getter for the identifiers variable
      *
      * @return identifier
      */
     char *getIdentifier();
 
     /**
-     * @brief This function returns true if time manager is activated or not
+     * @brief Getter for status variable
      *
-     * @return true/false
+     * @return true if status == true
      */
     bool isRunning();
 
     /**
-     * @brief This function returns the maximum number of timers that the timer manager can handle
+     * @brief Getter for maxTimers variable
      *
-     * @return max number of timers
+     * @return maxTimers
      */
     uint8_t getMaxTimers();
 
@@ -183,11 +195,19 @@ public:
     /**
      * @brief This function copies the contain of t1 into t2
      *
+     * @attention - This function only copies the features
+     *
      * @param t1
      * @param t2
      */
     void copyTimer(Timer *t1, Timer *t2);
 
+    /**
+     * @brief This function sets all the elements of the pool into nullptr for a given size
+     *
+     * @param pool
+     * @param size
+     */
     void clearPool(Timer** pool, uint8_t size);
 
 private:
