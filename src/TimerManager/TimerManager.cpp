@@ -46,6 +46,13 @@ void TimerManager::setTimer(Timer *t, uint32_t position) {
     this->pool[position] = t;
 }
 
+void TimerManager::setTimerPool(Timer **pool, uint8_t maxTimers) {
+    this->pool = pool;
+    this->maxTimers = maxTimers;
+
+    // TODO limit max timers depending on pool size
+}
+
 void TimerManager::addTimer(Timer *t) {
     if (t != nullptr) {
         if (this->numTimers < this->maxTimers) {

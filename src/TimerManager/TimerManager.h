@@ -74,6 +74,17 @@ public:
      */
     void setTimer(Timer *t, uint32_t position);
 
+    /**
+     * @brief This function changes the timer pool to manage
+     *
+     * @attention Pool should not be null
+     * @attention maxTimers must not be bigger than pool size
+     *
+     * @param pool pool of timers to handle
+     * @param maxTimers maximum number of timers that the class can handle
+     */
+    void setTimerPool(Timer** pool, uint8_t maxTimers);
+
     void addTimer(Timer* t);
 
     /**
