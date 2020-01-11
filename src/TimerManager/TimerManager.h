@@ -23,33 +23,48 @@ class TimerManager {
 
 public:
 
-    /**** CONSTRUCTORS ****/
+    //**** CONSTRUCTORS ****/
 
     /**
      * @brief This constructor will create a timer manager with a given number of timers inside (timerPool)
-     * it also receives a name
+     * it also receives a name.
      *
-     * Timer Manager Identifier must be max 25 char long
+     * @attention TimerManagerIdentifier must be shorter than 25 chars
+     * @attention Pool should not be null
+     * @attention maxTimers must not be bigger than pool size
      *
-     * @param timerManagerIdentifier, name
-     * @param maxTimers, total number of timer that can manage
+     * @param tmID  is the timer manager name
+     * @param pool contains timers to be managed
+     * @param maxTimers total number of timer that can managed by timer manager
      */
-    TimerManager(char *timerManagerIdentifier, Timer** pool ,uint8_t maxTimers);
+    TimerManager(char *tmID, Timer** pool ,uint8_t maxTimers);
 
     /**
      * @brief This constructor will create a timer manager without timers inside
      *
-     * @param timerManagerIdentifier
+     * @attention TimerManagerIdentifier must be shorter than 25 chars
+     * @attention Pool should not be null
+     * @attention maxTimers must not be bigger than pool size
+     * @attention check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
+     *
+     * @param tmID  is the timer manager name
+     * @param pool contains timers to be managed
      */
-    TimerManager(char *timerManagerIdentifier, Timer** pool);
+    TimerManager(char *tmID, Timer** pool);
 
     /**
      * @brief This constructor will create an empty timer manager
+     *
+     * @attention Pool should not be null
+     * @attention maxTimers must not be bigger than pool size
+     * @attention check TIMER_MANAGER_DEFAULT_MAX_TIMERS in TimerManager.h
+     *
+     * @param pool contains timers to be managed
      */
     TimerManager(Timer** pool);
 
 
-    /**** SETTERS ****/
+    //**** SETTERS ****/
 
     /**
      * @brief This function sets a new Timer in a given position
@@ -71,6 +86,8 @@ public:
     /**
      * @brief This functions changes the maximum number of timers managed by the timer manager
      *
+     * @attention maxTimers must not be bigger than pool size
+     *
      * @param newValue
      */
     void setMaxTimers(uint8_t newValue);
@@ -90,7 +107,7 @@ public:
      */
     void stop();
 
-    /**** GETTERS ****/
+    //**** GETTERS ****/
 
     /**
      * @brief This function returns a timer pool
