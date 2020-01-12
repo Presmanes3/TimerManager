@@ -1,47 +1,31 @@
-cmake_minimum_required(VERSION 3.15)
-
 # Project Name
-project(main)
+project(TimerManager_src)
 
-# C++ Standard
-set(CMAKE_CXX_STANDARD 11)
+set(TIMER_MANAGER_HEADER
+        TimerManager.h)
 
-set(SOURCE_FILES
-        main.cpp)
+set(TIMER_MANAGER_SOURCE
+        TimerManager.cpp)
 
-# Create executable named TimerManager with SOURCE_FILES
-add_executable(main ${SOURCE_FILES})
+# TimerManager_lib
+add_library(TimerManager_lib STATIC ${TIMER_MANAGER_SOURCE} ${TIMER_MANAGER_HEADER})
 
+set(TIMER_HEADER
+        Timer.h)
 
+set(TIMER_SOURCE
+        Timer.cpp)
 
-# Include root directory
-include_directories(..)
-
-# Set Directories to be included
-set(DIRECTORIES
-        Timer
-        TimerManager
-        UnitTest
-        Examples)
-
-# Include directory SoftwareTimer
-include_directories(${DIRECTORIES})
-
-# Include subdirectories CmakeLists.txt
-add_subdirectory(Timer)
-add_subdirectory(TimerManager)
-add_subdirectory(UnitTest)
-add_subdirectory(Examples)
+# Timer_lib
+add_library(Timer_lib STATIC ${TIMER_SOURCE} ${TIMER_HEADER})
 
 # Set libraries Variables
 set(LIBRARIES
         Timer_lib
         TimerManager_lib)
 
-# Link libraries to executable files
-target_link_libraries(main ${LIBRARIES})
-target_link_libraries(TimerManagerUse_Example_Exec ${LIBRARIES})
-target_link_libraries(TimerUse_Example_Exec ${LIBRARIES})
+
+
 
 
 

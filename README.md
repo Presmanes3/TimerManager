@@ -8,9 +8,9 @@ Timers are used to automatize processes, for example switching a led state every
 
 However, this library has been created to be **independent from the time source you are using**. Time reference can be set by millis(), system clock, a RTC or whatever.
 
-If you want to use this library with Arduino you have to copy [Timer](src/Timer) and [TimerManager](src/TimerManager) in your library folder.
+If you want to use this library with Arduino you have to copy [TimerManager](/) in your library folder.
 
-If you want to use this library with PlatformIO you have to copy the [Timer](src/Timer) and [TimerManager](src/TimerManager) in your "project/lib" folder and PlatfomIO will autodetect it.
+If you want to use this library with PlatformIO you have to copy [TimerManager](/) in your "project/lib" folder and PlatfomIO will autodetect it.
 
 ### Notes
 - TimerManager uses a TimerPool in order to manager a set of Timers at a time.
@@ -40,7 +40,7 @@ If you want to use this library with PlatformIO you have to copy the [Timer](src
 
 - [ ] Add examples in documentation
 
-- [ ] Create Include ecosystem for Arduini/C++ projects
+- [ ] Create Include ecosystem for Arduino/C++ projects
 
 
 ## Author Information

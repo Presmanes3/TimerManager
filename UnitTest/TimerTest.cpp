@@ -132,8 +132,8 @@ TEST_F(TimerTestClass, isRunningTest){
 }
 
 TEST_F(TimerTestClass, isFlagActivatedTest){
-  EXPECT_EQ(TIMER_FLAG_ACTIVATED, timer5->isFlagActivated());
-  EXPECT_NE(TIMER_FLAG_DEACTIVATED, timer5->isFlagActivated());
+  EXPECT_EQ(TIMER_FLAG_DEACTIVATED, timer5->isFlagActivated());
+  EXPECT_NE(TIMER_FLAG_ACTIVATED, timer5->isFlagActivated());
 }
 
 TEST_F(TimerTestClass, startTest){

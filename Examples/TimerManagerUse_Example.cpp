@@ -9,9 +9,6 @@
 #define DONT_DEACTIVATE_TIMER false
 #define DEACTIVATE_TIMER true
 
-/**
- * @example Timer Manager Example
-
 
 Timer* timer1;
 Timer* timer2;
@@ -82,4 +79,3 @@ void CopyTimers_Example(){
     printTimerFeatures(timer2, (char*)"Timer 2 after copy");
 }
 
-**/
