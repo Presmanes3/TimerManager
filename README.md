@@ -38,7 +38,7 @@ However, this library has been created to be **independent from the time source 
 
 
 ## Author Information
-[Github] (https://github.com/Presmanes3)
+[Github](https://github.com/Presmanes3)
 
 [Mail] - Premanes3@gmail.com
 
