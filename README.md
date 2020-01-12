@@ -34,6 +34,8 @@ However, this library has been created to be **independent from the time source 
 
 [ ] Create new Timer based classes
 
+[ ] Add examples in documentation
+
 
 ##Author Information
 [Github] (https://github.com/Presmanes3)
