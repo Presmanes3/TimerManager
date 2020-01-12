@@ -2,14 +2,18 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TimerManagerProject" targetName="TimerManager_lib" />
-      <config projectName="TimerManagerProject" targetName="Timer_lib" />
-      <config projectName="TimerManagerProject" targetName="gtest_main" />
-      <config projectName="TimerManagerProject" targetName="Constants_lib" />
-      <config projectName="TimerManagerProject" targetName="Google_Tests_run" />
-      <config projectName="TimerManagerProject" targetName="gtest" />
-      <config projectName="TimerManagerProject" targetName="gmock_main" />
       <config projectName="TimerManagerProject" targetName="gmock" />
+      <config projectName="TimerManagerProject" targetName="TimerManager_lib" />
+      <config projectName="TimerManagerProject" targetName="Google_Tests_run" />
+      <config projectName="TimerManagerProject" targetName="TimerUse_Example" />
+      <config projectName="TimerManagerProject" targetName="TimerUse_Example_Exec" />
+      <config projectName="TimerManagerProject" targetName="gtest" />
+      <config projectName="TimerManagerProject" targetName="Constants_lib" />
+      <config projectName="TimerManagerProject" targetName="gmock_main" />
+      <config projectName="TimerManagerProject" targetName="TimerManagerUse_Example" />
+      <config projectName="TimerManagerProject" targetName="gtest_main" />
+      <config projectName="TimerManagerProject" targetName="Timer_lib" />
+      <config projectName="TimerManagerProject" targetName="TimerManagerUse_Example_Exec" />
       <config projectName="TimerManagerProject" targetName="main" />
     </generated>
   </component>
@@ -21,9 +25,50 @@
   <component name="ChangeListManager">
     <list default="true" id="90ac87e4-7873-4934-98a3-c4d71feda084" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TimerManagerProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TimerManagerProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Timer/BasicTimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Timer/BasicTimer.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Timer/CMakeFiles/Timer_lib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Timer/CMakeFiles/Timer_lib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Timer/CMakeFiles/Timer_lib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Timer/CMakeFiles/Timer_lib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Timer/CMakeFiles/Timer_lib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Timer/CMakeFiles/Timer_lib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/CMakeFiles/TimerManager_lib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/TimerManager.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/TimerManager/TimerManager.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/CMakeFiles/Google_Tests_run.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/TimerManagerUnitTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/TimerManagerUnitTest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googlemock/gmock.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest-distribution.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/UnitTest/lib/googletest/gtest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/main.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/main.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Timer/Timer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timer/Timer.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TimerManager/TimerManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimerManager/TimerManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,32 +141,32 @@
       <recent name="$PROJECT_DIR$/UnitTest/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.TimerManagerTest">
-    <configuration name="TimerManagerTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="CMake Application.TimerManagerUse_Example_Exec">
+    <configuration name="TimerManagerTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerManagerTest.checkTimerTest4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="checkTimerTest4" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.checkTimerTest4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="checkTimerTest4" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerManagerTest.checkTimerTest5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="checkTimerTest5" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.checkTimerTest5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="checkTimerTest5" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerManagerTest.copyTimerTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="copyTimerTest" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.copyTimerTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="copyTimerTest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerManagerTest.getDifferenceTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="getDifferenceTest" TEST_MODE="SUITE_TEST">
+    <configuration name="TimerManagerTest.getDifferenceTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="TimerManagerTest" TEST_METHOD="getDifferenceTest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -138,7 +183,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimerManagerUse_Example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="TimerManagerUse_Example" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerManagerUse_Example_Exec" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="TimerManagerUse_Example_Exec" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="TimerManagerUse_Example_Exec">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimerManager_lib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="TimerManager_lib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerUse_Example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="TimerUse_Example" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerUse_Example_Exec" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimerManagerProject" TARGET_NAME="TimerUse_Example_Exec" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimerManagerProject" RUN_TARGET_NAME="TimerUse_Example_Exec">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -176,6 +241,10 @@
     <list>
       <item itemvalue="CMake Application.Constants_lib" />
       <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.TimerManagerUse_Example" />
+      <item itemvalue="CMake Application.TimerManagerUse_Example_Exec" />
+      <item itemvalue="CMake Application.TimerUse_Example" />
+      <item itemvalue="CMake Application.TimerUse_Example_Exec" />
       <item itemvalue="CMake Application.Timer_lib" />
       <item itemvalue="CMake Application.TimerManager_lib" />
       <item itemvalue="CMake Application.gmock" />
@@ -229,7 +298,8 @@
       <workItem from="1578656489150" duration="15203000" />
       <workItem from="1578678103902" duration="14000" />
       <workItem from="1578680070540" duration="3088000" />
-      <workItem from="1578746466371" duration="22790000" />
+      <workItem from="1578746466371" duration="23471000" />
+      <workItem from="1578821564513" duration="5834000" />
     </task>
     <servers />
   </component>
@@ -274,41 +344,49 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="484" key="GridCell.Tab.-1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578757319341" />
-    <state width="1874" height="237" key="GridCell.Tab.0.bottom" timestamp="1578765835717">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="237" key="GridCell.Tab.0.bottom" timestamp="1578826587601">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926770" />
+    <state width="1874" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578826587601" />
+    <state width="1874" height="237" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020830" />
     <state width="1874" height="237" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
-    <state width="1874" height="237" key="GridCell.Tab.0.center" timestamp="1578765835717">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="237" key="GridCell.Tab.0.center" timestamp="1578826587600">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
+    <state width="1874" height="237" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578826587600" />
+    <state width="1874" height="237" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020830" />
     <state width="1874" height="237" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
-    <state width="1874" height="237" key="GridCell.Tab.0.left" timestamp="1578765835717">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="237" key="GridCell.Tab.0.left" timestamp="1578826587600">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
+    <state width="1874" height="237" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578826587600" />
+    <state width="1874" height="237" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020830" />
     <state width="1874" height="237" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
-    <state width="1874" height="237" key="GridCell.Tab.0.right" timestamp="1578765835717">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="237" key="GridCell.Tab.0.right" timestamp="1578826587601">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578695926769" />
+    <state width="1874" height="237" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578826587601" />
+    <state width="1874" height="237" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020830" />
     <state width="1874" height="237" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578765835717" />
-    <state width="1874" height="345" key="GridCell.Tab.1.bottom" timestamp="1578759521134">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="345" key="GridCell.Tab.1.bottom" timestamp="1578770020827">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020827" />
     <state width="1874" height="345" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
-    <state width="1874" height="345" key="GridCell.Tab.1.center" timestamp="1578759521134">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="345" key="GridCell.Tab.1.center" timestamp="1578770020827">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020827" />
     <state width="1874" height="345" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
-    <state width="1874" height="345" key="GridCell.Tab.1.left" timestamp="1578759521134">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="345" key="GridCell.Tab.1.left" timestamp="1578770020827">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020827" />
     <state width="1874" height="345" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
-    <state width="1874" height="345" key="GridCell.Tab.1.right" timestamp="1578759521134">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="345" key="GridCell.Tab.1.right" timestamp="1578770020827">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="345" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578770020827" />
     <state width="1874" height="345" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578759521134" />
     <state x="257" y="130" width="1007" height="732" key="SettingsEditor" timestamp="1578661127724">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -326,9 +404,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="200" key="scopes/0.0.1920.1080@0.0.1920.1080" timestamp="1578660569874" />
-    <state x="2543" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1578761563077">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="623" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1578823866188">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="623" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578823866188" />
     <state x="2543" y="238" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1578761563077" />
   </component>
   <component name="XDebuggerManager">

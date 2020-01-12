@@ -16,6 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/Timer"
   "../src/TimerManager"
   "../src/UnitTest"
+  "../src/Examples"
   "../src/UnitTest/lib/googlemock/include"
   "../src/UnitTest/lib/googlemock"
   "../src/UnitTest/lib/googletest/include"

@@ -5,7 +5,7 @@
 		<Option title="googletest-distribution"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Timer\;CMake Files\src\TimerManager\;CMake Files\src\UnitTest\;CMake Files\src\UnitTest\lib\;CMake Files\src\UnitTest\lib\googlemock\;CMake Files\src\UnitTest\lib\googlemock\cmake\;CMake Files\src\UnitTest\lib\googletest\;CMake Files\src\UnitTest\lib\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Timer\;CMake Files\src\Examples\;CMake Files\src\TimerManager\;CMake Files\src\UnitTest\;CMake Files\src\UnitTest\lib\;CMake Files\src\UnitTest\lib\googlemock\;CMake Files\src\UnitTest\lib\googlemock\cmake\;CMake Files\src\UnitTest\lib\googletest\;CMake Files\src\UnitTest\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/UnitTest/lib"/>
@@ -30,6 +30,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -63,6 +64,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -96,6 +98,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -129,6 +132,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -162,6 +166,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -193,6 +198,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -224,6 +230,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -255,6 +262,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -294,6 +302,9 @@
 		</Unit>
 		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Timer\"/>
+		</Unit>
+		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Examples\"/>
 		</Unit>
 		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\TimerManager\"/>

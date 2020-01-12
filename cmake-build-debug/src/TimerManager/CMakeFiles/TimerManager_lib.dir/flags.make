@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/presmanes3/Documentos/Programming/Local/TimerManager/.. -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/.. -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest 
+CXX_INCLUDES = -I/home/presmanes3/Documentos/Programming/Local/TimerManager/.. -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/.. -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest -I/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples 
 

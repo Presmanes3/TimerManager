@@ -55,3 +55,13 @@
 /home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/gtest.dir
 /home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/rebuild_cache.dir
 /home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/UnitTest/lib/googletest/CMakeFiles/install.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/install/strip.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/install/local.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/install.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/TimerManagerUse_Example.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/list_install_components.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/TimerUse_Example.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/TimerManagerUse_Example_Exec.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/TimerUse_Example_Exec.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/edit_cache.dir
+/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/CMakeFiles/rebuild_cache.dir

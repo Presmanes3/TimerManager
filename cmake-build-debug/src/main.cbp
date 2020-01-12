@@ -5,7 +5,7 @@
 		<Option title="main"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Timer\;CMake Files\src\TimerManager\;CMake Files\src\UnitTest\;CMake Files\src\UnitTest\lib\;CMake Files\src\UnitTest\lib\googlemock\;CMake Files\src\UnitTest\lib\googlemock\cmake\;CMake Files\src\UnitTest\lib\googletest\;CMake Files\src\UnitTest\lib\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Timer\;CMake Files\src\Examples\;CMake Files\src\TimerManager\;CMake Files\src\UnitTest\;CMake Files\src\UnitTest\lib\;CMake Files\src\UnitTest\lib\googlemock\;CMake Files\src\UnitTest\lib\googlemock\cmake\;CMake Files\src\UnitTest\lib\googletest\;CMake Files\src\UnitTest\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src"/>
@@ -30,6 +30,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -59,6 +60,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -98,6 +100,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -127,6 +130,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -156,6 +160,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -185,6 +190,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -214,6 +220,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -245,6 +252,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -276,6 +284,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -309,6 +318,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -342,6 +352,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -375,6 +386,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googlemock"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
@@ -408,6 +420,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -439,6 +452,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -470,6 +484,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -501,6 +516,7 @@
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest/include"/>
 					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest/lib/googletest"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -519,7 +535,155 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/UnitTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TimerManagerUse_Example">
+				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 TimerManagerUse_Example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimerUse_Example">
+				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 TimerUse_Example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimerManagerUse_Example_Exec">
+				<Option output="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/TimerManagerUse_Example_Exec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 TimerManagerUse_Example_Exec"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimerManagerUse_Example_Exec/fast">
+				<Option output="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/TimerManagerUse_Example_Exec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 TimerManagerUse_Example_Exec/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimerUse_Example_Exec">
+				<Option output="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/TimerUse_Example_Exec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 TimerUse_Example_Exec"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimerUse_Example_Exec/fast">
+				<Option output="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/TimerUse_Example_Exec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/.."/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/UnitTest"/>
+					<Add directory="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 TimerUse_Example_Exec/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/presmanes3/Documentos/Programming/Local/TimerManager/cmake-build-debug/src/Examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples/TimerManagerUse_Example.cpp">
+			<Option target="TimerManagerUse_Example"/>
+			<Option target="TimerManagerUse_Example_Exec"/>
+		</Unit>
+		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples/TimerUse_Example.cpp">
+			<Option target="TimerUse_Example"/>
+			<Option target="TimerUse_Example_Exec"/>
+		</Unit>
 		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer/Timer.cpp">
 			<Option target="Timer_lib"/>
 		</Unit>
@@ -564,6 +728,9 @@
 		</Unit>
 		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Timer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Timer\"/>
+		</Unit>
+		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Examples\"/>
 		</Unit>
 		<Unit filename="/home/presmanes3/Documentos/Programming/Local/TimerManager/src/TimerManager/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\TimerManager\"/>

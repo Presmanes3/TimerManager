@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Timer/Timer.h
+cinttypes
+-
+TimerManagerConstants.h
+../src/Timer/TimerManagerConstants.h
+
+../src/TimerManager/TimerManager.h
+cstdint
+-
+cstdio
+-
+cmath
+-
+cstring
+-
+TimerManagerConstants.h
+../src/TimerManager/TimerManagerConstants.h
+errno.h
+-
+
+../src/TimerManagerConstants.h
+
+/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples/TimerManagerUse_Example.cpp
+Timer.h
+/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples/Timer.h
+TimerManager.h
+/home/presmanes3/Documentos/Programming/Local/TimerManager/src/Examples/TimerManager.h
+

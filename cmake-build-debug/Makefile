@@ -273,6 +273,58 @@ gtest/fast:
 	$(MAKE) -f src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/build.make src/UnitTest/lib/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+#=============================================================================
+# Target rules for targets named TimerManagerUse_Example
+
+# Build rule for target.
+TimerManagerUse_Example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TimerManagerUse_Example
+.PHONY : TimerManagerUse_Example
+
+# fast build rule for target.
+TimerManagerUse_Example/fast:
+	$(MAKE) -f src/Examples/CMakeFiles/TimerManagerUse_Example.dir/build.make src/Examples/CMakeFiles/TimerManagerUse_Example.dir/build
+.PHONY : TimerManagerUse_Example/fast
+
+#=============================================================================
+# Target rules for targets named TimerUse_Example
+
+# Build rule for target.
+TimerUse_Example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TimerUse_Example
+.PHONY : TimerUse_Example
+
+# fast build rule for target.
+TimerUse_Example/fast:
+	$(MAKE) -f src/Examples/CMakeFiles/TimerUse_Example.dir/build.make src/Examples/CMakeFiles/TimerUse_Example.dir/build
+.PHONY : TimerUse_Example/fast
+
+#=============================================================================
+# Target rules for targets named TimerManagerUse_Example_Exec
+
+# Build rule for target.
+TimerManagerUse_Example_Exec: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TimerManagerUse_Example_Exec
+.PHONY : TimerManagerUse_Example_Exec
+
+# fast build rule for target.
+TimerManagerUse_Example_Exec/fast:
+	$(MAKE) -f src/Examples/CMakeFiles/TimerManagerUse_Example_Exec.dir/build.make src/Examples/CMakeFiles/TimerManagerUse_Example_Exec.dir/build
+.PHONY : TimerManagerUse_Example_Exec/fast
+
+#=============================================================================
+# Target rules for targets named TimerUse_Example_Exec
+
+# Build rule for target.
+TimerUse_Example_Exec: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TimerUse_Example_Exec
+.PHONY : TimerUse_Example_Exec
+
+# fast build rule for target.
+TimerUse_Example_Exec/fast:
+	$(MAKE) -f src/Examples/CMakeFiles/TimerUse_Example_Exec.dir/build.make src/Examples/CMakeFiles/TimerUse_Example_Exec.dir/build
+.PHONY : TimerUse_Example_Exec/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -294,6 +346,10 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... TimerManagerUse_Example"
+	@echo "... TimerUse_Example"
+	@echo "... TimerManagerUse_Example_Exec"
+	@echo "... TimerUse_Example_Exec"
 .PHONY : help
 
 
