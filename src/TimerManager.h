@@ -19,7 +19,7 @@
 #else
 #include "stdint.h"
 #include "stdio.h"
-#include "math.h"
+#include "stdlib.h"
 #include "string.h"
 #include "errno.h"
 #endif

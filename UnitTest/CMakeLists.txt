@@ -1,4 +1,4 @@
-project(TimerManagerUnitTest)
+project(TimerManager_UnitTest)
 
 # Add lib Cmake file
 add_subdirectory(lib)
