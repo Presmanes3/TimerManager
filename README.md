@@ -11,8 +11,8 @@ However, this library has been created to be **independent from the time source 
 ### Notes
 - TimerManager uses a TimerPool in order to manager a set of Timers at a time.
 - Timer Pool is just a Timer Array.
-- There are some test at "UnitTest" folder
-- Examples are in src/Examples
+- [UnitTest](src/UnitTest)
+- [Examples](src/Examples)
 
 ## Features
 - Create Timer
@@ -27,14 +27,14 @@ However, this library has been created to be **independent from the time source 
 - Flag based alert
 
 ## Known Bugs
-[ ] If maximum number of timers is bigger than timer pool size, program may break.
+- [ ] If maximum number of timers is bigger than timer pool size, program may break.
 
 ## TODO List
-[ ] Select Flag mode (activate at true/false)
+- [ ] Select Flag mode (activate at true/false)
 
-[ ] Create new Timer based classes
+- [ ] Create new Timer based classes
 
-[ ] Add examples in documentation
+- [ ] Add examples in documentation
 
 
 ## Author Information
