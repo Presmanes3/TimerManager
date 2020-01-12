@@ -27,10 +27,6 @@ enum timerType {MIL, SEC, MIN, HOUR};
  * This class can be used by itself, but there is also a class called TimerManager
  * which will help you to manage/handle a group of Timers
  *
- * @example If you need to blink blink a LED every 500ms you could use the following pseudo-code:
- *
- * @example Timer blink_led_timer = Timer(500, reference, MIL, false, true);
- *
  * @attention - Notice that you should initialize all the timers with status = true otherwise it will stay
  * in stand-by
  */

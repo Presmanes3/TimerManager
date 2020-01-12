@@ -28,9 +28,6 @@ class Timer;
  * @attention - If you want to manage more than one Timer at a time you must specify a Timer pool
  * @attention - A Timer pool is a Timer array
  *
- * @example Timer* pool[25]; // Notice that 25 is the array size
- * @example TimerManager manager = TimerManager("TimerManager_Example", pool, 25)
- *
  */
 class TimerManager {
 
