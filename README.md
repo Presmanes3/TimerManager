@@ -1,6 +1,6 @@
-#TimerManager_lib
+# TimerManager_lib
 
-##Description 
+## Description 
 TimerManager_lib  is a library created to manage Timers used commonly while working with microcontrollers. 
 
 While talking about microcontrollers it is mandatory to speak about Timers.
@@ -8,13 +8,13 @@ Timers are used to automatize processes, for example switching a led state every
 
 However, this library has been created to be **independent from the time source you are using**. Time reference can be set by millis(), system clock, a RTC or whatever.
 
-###Notes
+### Notes
 - TimerManager uses a TimerPool in order to manager a set of Timers at a time.
 - Timer Pool is just a Timer Array.
 - There are some test at "UnitTest" folder
 - Examples are in src/Examples
 
-##Features
+## Features
 - Create Timer
 - Create Timer Manager
 - Activate/Deactivate a Timer
@@ -26,10 +26,10 @@ However, this library has been created to be **independent from the time source 
 - Get time difference between two references
 - Flag based alert
 
-##Known Bugs
+## Known Bugs
 [ ] If maximum number of timers is bigger than timer pool size, program may break.
 
-##TODO List
+## TODO List
 [ ] Select Flag mode (activate at true/false)
 
 [ ] Create new Timer based classes
@@ -37,7 +37,7 @@ However, this library has been created to be **independent from the time source 
 [ ] Add examples in documentation
 
 
-##Author Information
+## Author Information
 [Github] (https://github.com/Presmanes3)
 
 [Mail] - Premanes3@gmail.com
