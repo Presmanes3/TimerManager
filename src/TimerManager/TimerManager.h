@@ -8,14 +8,30 @@
 #ifndef TIMERMANAGERPROJECT_TIMERMANAGER_H
 #define TIMERMANAGERPROJECT_TIMERMANAGER_H
 
-#include <cstdint> // TODO check if compiles in Arduino ecosystem
-#include <cstdio> // TODO check if compiles in Arduino ecosystem
-#include <cmath> // TODO check if compiles in Arduino ecosystem
-#include <cstring> // TODO check if compiles in Arduino ecosystem
-#include "TimerManagerConstants.h"
-#include <errno.h> // TODO check if compiles in Arduino ecosystem
+#if !defined(ARDUINO)
 
-// TODO Examples
+#include <cstdint>
+#include <cstdio>
+#include <cmath>
+#include <cstring>
+#include <errno.h>
+
+#else
+#include "stdint.h"
+#include "stdio.h"
+#include "math.h"
+#include "string.h"
+#include "errno.h"
+#endif
+
+#define TIMER_MANAGER_DEFAULT_MAX_TIMERS 5
+
+#define TIMER_MANAGER_IDENTIFIER_MAX_LENGTH 25
+#define TIMER_MANAGER_DEFAULT_IDENTIFIER "DEFAULT"
+
+#define TIMER_MANAGER_ACTIVATED true
+#define TIMER_MANAGER_DEACTIVATED false
+
 
 class Timer;
 
@@ -47,7 +63,7 @@ public:
      * @param pool contains timers to be managed
      * @param maxTimers total number of timer that can managed by timer manager
      */
-    TimerManager(char *tmID, Timer** pool ,uint8_t maxTimers);
+    TimerManager(char *tmID, Timer **pool, uint8_t maxTimers);
 
     /**
      * @brief This constructor will create a timer manager without timers inside
@@ -60,7 +76,7 @@ public:
      * @param tmID  is the timer manager name
      * @param pool contains timers to be managed
      */
-    TimerManager(char *tmID, Timer** pool);
+    TimerManager(char *tmID, Timer **pool);
 
     /**
      * @brief This constructor will create an empty timer manager
@@ -71,7 +87,7 @@ public:
      *
      * @param pool contains timers to be managed
      */
-    TimerManager(Timer** pool);
+    TimerManager(Timer **pool);
 
 
     //**** SETTERS ****/
@@ -93,9 +109,9 @@ public:
      * @param pool pool of timers to handle
      * @param maxTimers maximum number of timers that the class can handle
      */
-    void setTimerPool(Timer** pool, uint8_t maxTimers);
+    void setTimerPool(Timer **pool, uint8_t maxTimers);
 
-    void addTimer(Timer* t);
+    void addTimer(Timer *t);
 
     /**
      * @brief This function changes the identifier of the object
@@ -189,7 +205,7 @@ public:
      *
      * @return difference between currentTime and referenceTime
      */
-     uint32_t getTimeDifference(uint32_t currentTime, uint32_t referenceTime);
+    uint32_t getTimeDifference(uint32_t currentTime, uint32_t referenceTime);
 
     /**
      * @brief This function copies the contain of t1 into t2
@@ -207,7 +223,7 @@ public:
      * @param pool
      * @param size
      */
-    void clearPool(Timer** pool, uint8_t size);
+    void clearPool(Timer **pool, uint8_t size);
 
 private:
 

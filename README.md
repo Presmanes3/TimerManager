@@ -36,6 +36,8 @@ However, this library has been created to be **independent from the time source 
 
 - [ ] Add examples in documentation
 
+- [ ] Create Include ecosystem for Arduini/C++ projects
+
 
 ## Author Information
 [Github](https://github.com/Presmanes3)

@@ -8,10 +8,19 @@
 #ifndef TIMERMANAGERPROJECT_TIMER_H
 #define TIMERMANAGERPROJECT_TIMER_H
 
-#include <cinttypes> // TODO check if compiles in Arduino ecosystem
-#include "TimerManagerConstants.h"
+#if !defined(ARDUINO)
 
-// TODO Examples
+#include <cstdint>
+
+#else
+#include "stdint.h"
+#endif
+
+#define TIMER_FLAG_ACTIVATED true
+#define TIMER_FLAG_DEACTIVATED false
+
+#define TIMER_STATUS_ON true
+#define TIMER_STATUS_OFF false
 
 /**
  * @brief Identifier can be used by the user in order to have a visual method to know the frequency
@@ -19,7 +28,9 @@
  *
  * @attention - You can add your own values to this variable
  */
-enum timerType {MIL, SEC, MIN, HOUR};
+enum timerType {
+    MIL, SEC, MIN, HOUR
+};
 
 /**
  * @brief The aim of this class is to define what a Timer is.
@@ -35,7 +46,7 @@ class Timer {
 public:
 
     //**** CONSTRUCTORS ****/
-    
+
     /**
      * @brief The aim of this constructor is to create a Timer object with all the
      * features specified
@@ -84,7 +95,7 @@ public:
     Timer(uint32_t time);
 
     //**** SETTERS ****/
-    
+
     /**
      * @brief This function sets a new value for Timer time
      *
@@ -109,7 +120,7 @@ public:
     void setIdentifier(timerType newId);
 
     //**** GETTERS ****/
-    
+
     /**
      * @brief Getter for time variable. This variable defines the frequency for timer flag being activated
      *

@@ -15,7 +15,7 @@ set(TEST_LIBRARIES
         Timer_lib
         TimerManager_lib)
 
-# The google test will be Test1.cpp
+# Google Test
 add_executable(Google_Tests_run ${TEST_FILES})
 
 # Link test Libraries

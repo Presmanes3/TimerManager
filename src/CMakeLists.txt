@@ -24,8 +24,6 @@ set(DIRECTORIES
         UnitTest
         Examples)
 
-add_custom_target(Constants_lib SOURCES TimerManagerConstants.h)
-
 # Include directory SoftwareTimer
 include_directories(${DIRECTORIES})
 
