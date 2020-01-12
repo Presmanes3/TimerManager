@@ -8,7 +8,7 @@
 #ifndef TIMERMANAGERPROJECT_TIMER_H
 #define TIMERMANAGERPROJECT_TIMER_H
 
-#include <cinttypes>
+#include <cinttypes> // TODO check if compiles in Arduino ecosystem
 #include "TimerManagerConstants.h"
 
 // TODO Examples

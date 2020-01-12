@@ -8,12 +8,12 @@
 #ifndef TIMERMANAGERPROJECT_TIMERMANAGER_H
 #define TIMERMANAGERPROJECT_TIMERMANAGER_H
 
-#include <cstdint>
-#include <cstdio>
-#include <cmath>
-#include <cstring>
+#include <cstdint> // TODO check if compiles in Arduino ecosystem
+#include <cstdio> // TODO check if compiles in Arduino ecosystem
+#include <cmath> // TODO check if compiles in Arduino ecosystem
+#include <cstring> // TODO check if compiles in Arduino ecosystem
 #include "TimerManagerConstants.h"
-#include <errno.h>
+#include <errno.h> // TODO check if compiles in Arduino ecosystem
 
 // TODO Examples
 
