@@ -1,28 +1,20 @@
 # Project Name
 project(TimerManager_src)
 
-set(TIMER_MANAGER_HEADER
-        TimerManager.h)
-
-set(TIMER_MANAGER_SOURCE
-        TimerManager.cpp)
-
-# TimerManager_lib
-add_library(TimerManager_lib STATIC ${TIMER_MANAGER_SOURCE} ${TIMER_MANAGER_HEADER})
-
-set(TIMER_HEADER
+set(TimerController_headers
+        TimerManager.h
         Timer.h)
 
-set(TIMER_SOURCE
+set(TimerController_sources
+        TimerManager.cpp
         Timer.cpp)
 
 # Timer_lib
-add_library(Timer_lib STATIC ${TIMER_SOURCE} ${TIMER_HEADER})
+add_library(TimerController_lib STATIC ${TimerController_sources} ${TimerController_headers})
 
 # Set libraries Variables
 set(LIBRARIES
-        Timer_lib
-        TimerManager_lib)
+        TimerController_lib)
 
 
 
