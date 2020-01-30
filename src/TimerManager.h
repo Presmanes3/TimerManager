@@ -13,7 +13,7 @@
 #include <cstdint>
 #include <cstdio>
 #include <cmath>
-#include <cstring>T
+#include <cstring>
 #include <errno.h>
 
 #else
